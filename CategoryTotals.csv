@@ -1,103 +1,42 @@
-﻿Category,Subcategory,Description,Vendor,Start Date,Duration,End Date,Amount,Balance,
-Revenue,Balance,Current Operating balance,BCM,1/30/25,1,1/31/25,411000.31,411000.31,
-Construction,Low Voltage,Low Voltage Install,Micro Innovation,1/31/25,1,2/1/25,-9539.57,401460.74,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),1/31/25,1,2/1/25,-6127.53,395333.21,
-Occupancy,Insurance,Insurance,Cincinnati Insurance,2/1/25,1,2/2/25,-1100.00,394233.21,
-Debt Service,Embassy,Interest,Embassy,2/1/25,1,2/2/25,-2057.30,392175.91,
-Debt Service,LEAF,Interest,LEAF,2/1/25,1,2/2/25,-2333.33,389842.58,
-Occupancy,Rent,Rent,Market Flats,2/1/25,1,2/2/25,-14829.00,375013.58,
-Revenue,PayPal,Paypal Donations,Paypal,2/1/25,1,2/2/25,1000.00,376013.58,
-Debt Service,Penn,Interest,Penn,2/1/25,1,2/2/25,-5250.00,370763.58,
-Occupancy,Utilities,Electric (Estimated),PPL,2/1/25,1,2/2/25,-1100.00,369663.58,
-Other,Marketing,Consulting (Website),Fresh Ink,2/1/25,1,2/2/25,-300.00,369363.58,
-Project Management,SBS,Estimated Consulting Hours Refill,SBS,2/1/25,1,2/2/25,-5500.00,363863.58,
-Construction,Architecture & Design,Estimated Consulting Hours Refill,Thought For Food,2/1/25,1,2/2/25,-1440.00,362423.58,
-Construction,Construction,Invoice #7,Boyle,2/5/25,1,2/6/25,-112645.00,249778.58,
-Revenue,HUD,HUD drawdown # 10,HUD drawdown,2/7/25,1,2/8/25,35830.92,285609.50,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),2/7/25,1,2/8/25,-6127.53,279481.97,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),2/14/25,1,2/15/25,-6127.53,273354.44,
-Revenue,HUD,HUD drawdown #11,Hud Drawdown,2/21/25,1,2/22/25,461562.33,734916.77,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),2/21/25,1,2/22/25,-6127.53,728789.24,
-Equipment,Zepole,Equipment Sales Order,Zepole,2/24/25,1,2/25/25,-252145.16,476644.08,
-Equipment,Aperion,Electronic Tag System,Aperion,2/27/25,1,2/28/25,-48375.00,428269.08,
-Construction,Low Voltage,Low Voltage Install,Micro Innovation,2/27/25,1,2/1/25,-9826.16,418442.92,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),2/28/25,1,3/1/25,-6127.53,412315.39,
-Occupancy,Insurance,Insurance,Cincinnati Insurance,3/1/25,1,3/2/25,-1483.00,410832.39,
-Debt Service,Embassy,Interest,Embassy,3/1/25,1,3/2/25,-2057.30,408775.09,
-Debt Service,LEAF,Interest,LEAF,3/1/25,1,3/2/25,-2333.33,406441.76,
-Debt Service,LEAF,Loan Balance Payment,LEAF,3/1/25,1,3/2/25,-402333.33,4108.43,
-Occupancy,Rent,Rent,Market Flats,3/1/25,1,3/2/25,-14829.00,-10720.57,
-Revenue,PayPal,Paypal Donations,Paypal,3/1/25,1,3/2/25,1000.00,-9720.57,
-Debt Service,Penn,Interest,Penn,3/1/25,1,3/2/25,-5250.00,-14970.57,
-Occupancy,Utilities,Electric (Estimated),PPL,3/1/25,1,3/2/25,-1100.00,-16070.57,
-Other,Marketing,Consulting (Website),Fresh Ink,3/1/25,1,3/2/25,-300.00,-16370.57,
-Project Management,SBS,Estimated Consulting Hours Refill,SBS,3/1/25,1,3/2/25,-5500.00,-21870.57,
-Construction,Architecture & Design,Estimated Consulting Hours Refill,Thought For Food,3/1/25,1,3/2/25,-1440.00,-23310.57,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),3/7/25,1,3/8/25,-6127.53,-29438.10,
-Revenue,HUD,HUD drawdown #12,Hud Drawdown,3/10/25,1,3/11/25,259336.76,229898.66,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),3/14/25,1,3/15/25,-6127.53,223771.13,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),3/21/25,1,3/22/25,-6127.53,217643.60,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),3/28/25,1,3/29/25,-6127.53,211516.07,
-Occupancy,Insurance,Insurance,Cincinnati Insurance,4/1/25,1,4/2/25,-1483.00,210033.07,
-Debt Service,Embassy,Interest,Embassy,4/1/25,1,4/2/25,-2057.30,207975.77,
-Debt Service,LEAF,Interest,LEAF,4/1/25,1,4/2/25,-2333.33,205642.44,
-Occupancy,Rent,Rent,Market Flats,4/1/25,1,4/2/25,-14829.00,190813.44,
-Revenue,PayPal,Paypal Donations,Paypal,4/1/25,1,4/2/25,1000.00,191813.44,
-Debt Service,Penn,Interest,Penn,4/1/25,1,4/2/25,-5250.00,186563.44,
-Occupancy,Utilities,Electric (Estimated),PPL,4/1/25,1,4/2/25,-1100.00,185463.44,
-Other,Marketing,Consulting (Website),Fresh Ink,4/1/25,1,4/2/25,-300.00,185163.44,
-Project Management,SBS,Estimated Consulting Hours Refill,SBS,4/1/25,1,4/2/25,-5500.00,179663.44,
-Construction,Architecture & Design,Estimated Consulting Hours Refill,Thought For Food,4/1/25,1,4/2/25,-1440.00,178223.44,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),4/4/25,1,4/5/25,-6127.53,172095.91,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),4/11/25,1,4/12/25,-6127.53,165968.38,
-Equipment,Zepole,Equipment Sales Order,Zepole,4/14/25,1,4/15/25,-315181.45,-149213.07,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),4/18/25,1,4/19/25,-6127.53,-155340.60,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),4/25/25,1,4/26/25,-6127.53,-161468.13,
-Construction,Construction,unbilled (including retainage),Boyle,5/1/25,1,5/2/25,-155267.14,-316735.27,
-Occupancy,Insurance,Insurance,Cincinnati Insurance,5/1/25,1,5/2/25,-1483.00,-318218.27,
-Supplies & Materials,Interior Decor,Décor Package (Vendor TBD),DÉCOR,5/1/25,1,5/2/25,-70000.00,-388218.27,
-Debt Service,Embassy,Interest,Embassy,5/1/25,1,5/2/25,-2057.30,-390275.57,
-Debt Service,LEAF,Interest,LEAF,5/1/25,1,5/2/25,-2333.33,-392608.90,
-Occupancy,Rent,Rent,Market Flats,5/1/25,1,5/2/25,-14829.00,-407437.90,
-Debt Service,Penn,Interest,Penn,5/1/25,1,5/2/25,-5250.00,-412687.90,
-Occupancy,Utilities,Electric (Estimated),PPL,5/1/25,1,5/2/25,-1100.00,-413787.90,
-Other,Marketing,50% due on delivery store sign,Reed Sign,5/1/25,1,5/2/25,-11684.91,-425472.81,
-Other,Marketing,Consulting (Website),Fresh Ink,5/1/25,1,5/2/25,-300.00,-425772.81,
-Project Management,SBS,Estimated Consulting Hours Refill,SBS,5/1/25,1,5/2/25,-5500.00,-431272.81,
-Construction,Architecture & Design,Estimated Consulting Hours Refill,Thought For Food,5/1/25,1,5/2/25,-1440.00,-432712.81,
-Equipment,Coffee Equipment,Coffee Bar Equipment,Zepole,5/1/25,1,5/2/25,-18000.00,-450712.81,
-Supplies & Materials,Small Wares,Kitchen Small Wares,Zepole,5/1/25,1,5/2/25,-18000.00,-468712.81,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/2/25,1,5/3/25,-6127.53,-474840.34,
-Salary,Payroll (store),Payroll (store),Payroll (store),5/2/25,1,5/3/25,-17088.15,-491928.49,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/9/25,1,5/10/25,-6127.53,-498056.02,
-Salary,Payroll (store),Payroll (store),Payroll (store),5/9/25,1,5/10/25,-17088.15,-515144.17,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/16/25,1,5/17/25,-6127.53,-521271.70,
-Salary,Payroll (store),Payroll (store),Payroll (store),5/16/25,1,5/17/25,-17088.15,-538359.85,
-Salary,Payroll (store),Payroll (store),Payroll (store),5/16/25,1,5/17/25,-17088.15,-555448.00,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/23/25,1,5/24/25,-6127.53,-561575.53,
-Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/30/25,1,5/31/25,-6127.53,-567703.06,
-Equipment,ECRS,Registers + other POS equipment,ECRS,5/30/25,1,5/31/25,-83318.11,-651021.17,
-Equipment,Zepole,Equipment Sales Order,Zepole,5/31/25,1,6/1/25,-59799.05,-710820.22,
-Occupancy,Insurance,Insurance,Cincinnati Insurance,6/1/25,1,6/2/25,-1483.00,-712303.22,
-Debt Service,Embassy,Interest,Embassy,6/1/25,1,6/2/25,-2057.30,-714360.52,
-Debt Service,LEAF,Interest,LEAF,6/1/25,1,6/2/25,-2333.33,-716693.85,
-Occupancy,Rent,Rent,Market Flats,6/1/25,1,6/2/25,-14829.00,-731522.85,
-Debt Service,Penn,Interest,Penn,6/1/25,1,6/2/25,-5250.00,-736772.85,
-Occupancy,Utilities,Electric (Estimated),PPL,6/1/25,1,6/2/25,-1100.00,-737872.85,
-Other,Marketing,Consulting (Website),Fresh Ink,6/1/25,1,6/2/25,-300.00,-738172.85,
-Project Management,SBS,Estimated Consulting Hours Refill,SBS,6/1/25,1,6/2/25,-5500.00,-743672.85,
-Construction,Architecture & Design,Estimated Consulting Hours Refill,Thought For Food,6/1/25,1,6/2/25,-1440.00,-745112.85,
-Other,Opening Inventory,Opening Inventory,KeHe,6/1/25,1,6/2/25,-327412.00,-1072524.85,
-Debt Service,Embassy,Loan Payoff,Embassy,6/4/25,1,6/5/25,-400000.00,-1472524.85,
-Debt Service,Penn,Loan Payoff,Penn,6/15/25,1,6/16/25,-700000.00,-2172524.85,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+﻿Category,subcategory,Projected,Current,Remaining cost until store opening,Notes
+Total,Salaries,271500,205083.54,140579.46,Note : 
+Salaries,GM,35000,78528.17,32340,Note : 
+Salaries,ARGM,22917,21923.15,24230.85,Note : 
+Salaries,ACCOUNTING,22917,"$27,231.91 ",24230.85,Note : 
+Salaries,HR,22917,"$8,204.50 ",13739.25,Note : 
+Salaries,PREP,22917,"$17,076.98 ",24230.85,Note : 
+Salaries,MARKETING,22917,"$52,118.83 ",21807.66,Note : 
+Salaries,Store,144833,0,-68352.6,"Note : Includes the following prior to open labor costs : 31 Staff for 1 month, 5 dept heads for 2 months, Receiving Director for 3 months"
+Total,Fringe Benefits,48870,42548.23,26411.7,Note : 
+Fringe Benefits,Health,0,20806.48,25200,Note : 
+Fringe Benefits,Cell Reimbursement,0,17707.92,1211.7,Note : 
+Fringe Benefits,Holiday Pay,0,1430.88,0,Note : 
+Fringe Benefits,Sick TIme,0,0,0,Note : 
+Fringe Benefits,ER PAID,0,553.84,0,Note : 
+Fringe Benefits,MISC REIMB,0,2049.11,0,Note : 
+Total,Equipment,1217000,630362.91,705330.26,"Includes all equipment laid out in project narrative, including fixtures, refrigeration equipment (and associated installation), shelving, POS system, misting system, delivery vehicles, and other equipment."
+Equipment,Zepole,1200000,630362.91,627125.66,Note : 
+Equipment,Aperion,0,0,48375,Note : 
+Equipment,Coffee Equipment,0,0,18000,Note : 
+Total,Materials and Supplies," $120,000 ",0,99829.6,"Includes shopping carts, small wares, interior decor, and other supplies "
+Materials and Supplies,Shopping Carts," $10,000 ",0,11829.6,"Includes carts, cart retension locks, and shopping baskets.  Backed out of Zepole Equip. #"
+Materials and Supplies,Small Wares," $40,000 ",0,18000,"Includes items like chairs, tables, phones, garbage cans, etc. "
+Materials and Supplies,Interior Décor," $70,000 ",0,70000,Includes deocr items and interior signage
+Total,Construction," $1,158,600 ",1566432.12,294477.87,Note : 
+Construction,Building Permits & Fees," $31,500 ",325,0,Note : 
+Construction,Architectural and Engineering," $144,920 ",161912.12,7200,Note : Thought For Food estimated
+Construction,Boyle Construction," $982,180 ",1404195,267912.14,Note : 
+Construction,Low Voltage Install, $-   ,0,19365.73,Note : 
+Total,Occupancy,273109,36269.44,86677,Note : 
+Occupancy,Lease,189426,17779,74145,Note : 
+Occupancy,Utilities,64519,5614.67,5500,Note :  Rough Estimate
+Occupancy,Insurance,19164,12875.77,7032,Note : Not including worker's comp
+Total,Other,287847,19747.25,340596.91,Note : 
+Other,Marketing,102847,11684.91,13184.91,Includes Store sign + Fresh ink
+Other,Inventory,185000,8062.34,327412,Wholesale purchase of store product to sell at retail to customers. Please see budget narrative for calculation method.
+Total,Project Management," $142,000 ",280173.47,27500,Project + grants management costs management costs (4% of total project budget); please see budget narrative.
+Project Management,SBS,142000,280173.47,27500,Note : 
+Total,Debt Service,1400000,54079.88,1550536.48,Note : 
+Debt Service,LEAF,400000,22760.31,413999.98,Note : 
+Debt Service,Embassy,300000,12989.96,410286.5,Note : 
+Debt Service,Penn,700000,18329.61,726250,Note : 
