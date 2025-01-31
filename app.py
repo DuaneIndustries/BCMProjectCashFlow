@@ -33,8 +33,7 @@ roastlog['End Date'] = roastlog['End Date'].dt.normalize()
 
 #for deploying
 
-app = dash.Dash(__name__)
-                #,external_stylesheets=[dbc.themes.SLATE])
+app = dash.Dash(__name__),external_stylesheets=[dbc.themes.SLATE])
 server=app.server
 app.config.suppress_callback_exceptions=True
 
