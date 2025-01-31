@@ -9,10 +9,6 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 
 
-# VALID_USERNAME_PASSWORD_PAIRS = {
-#     "User" : "password1"
-# }
-
 
 green = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/CategoryTotalsv1.csv")
 roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashFlowTimeline.csv")
