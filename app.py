@@ -43,7 +43,7 @@ server=app.server
 # LAYOUT
 app.layout = dbc.Container([
     dbc.Row([
-        dbc.Col(html.H1('BCM Project Cost Analysis',
+        dbc.Col(html.H1('Project Cost Analysis',
                         style={'textAlign' : 'center','color' : 'Linen'},
                         className='text-m-center mb-m-4'),
                 width=12)
