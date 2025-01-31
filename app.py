@@ -35,7 +35,7 @@ roastlog['End Date'] = roastlog['End Date'].dt.normalize()
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.SLATE])
 server=app.server
-app.config.suppress_callback_exceptions=True
+ # app.config.suppress_callback_exceptions=True
 
 # server.secret_key = os.urandom(24)
 #
