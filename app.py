@@ -31,12 +31,12 @@ roastlog['End Date'] = roastlog['End Date'].dt.normalize()
 
 
 
-app = dash.Dash(__name__,external_stylesheets=[dash_bootstrap_components.themes.SLATE],
-              meta_tags=[{'name':'viewport',
-                          'content': 'width=device-width, intial-scale=1.0'}]
-                )
 #for deploying
-server = app.server
+
+app = dash.Dash(__name__,external_stylesheets=[dbc.themes.SLATE])
+server=app.server
+app.config.suppress_callback_exceptions=True
+
 # server.secret_key = os.urandom(24)
 #
 # auth = dash_auth.BasicAuth(
