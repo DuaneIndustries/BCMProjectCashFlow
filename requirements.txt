@@ -3,4 +3,4 @@ pandas
 dash-bootstrap-components
 dash-html-components
 gunicorn
-plotly == 6.0.0
+plotly == 5.22.0
