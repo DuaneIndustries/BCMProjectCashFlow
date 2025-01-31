@@ -4,3 +4,4 @@ dash-bootstrap-components
 dash-html-components
 gunicorn
 plotly == 5.22.0
+dash-auth
