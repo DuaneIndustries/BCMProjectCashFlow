@@ -36,7 +36,7 @@ app = dash.Dash(__name__,external_stylesheets=[dash_bootstrap_components.themes.
                           'content': 'width=device-width, intial-scale=1.0'}]
                 )
 #for deploying
-# server = app.server
+server = app.server
 # server.secret_key = os.urandom(24)
 #
 # auth = dash_auth.BasicAuth(
