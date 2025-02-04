@@ -104,7 +104,7 @@ def update_graph(cat_slctd):
      recurringvendors = ['BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown',]
      vendors_to_display = cat_slctd + recurringvendors
      dff = roastlog[roastlog['Vendor'].isin(vendors_to_display)]
-    dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
+     dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
 
     fig = go.Figure()
     fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',
@@ -114,8 +114,8 @@ def update_graph(cat_slctd):
                       xaxis_title='Date',
                       yaxis_title='Balance',
                       paper_bgcolor='#353839',
-                     plot_bgcolor='linen',
-                    font_color='linen')
+                      plot_bgcolor='linen',
+                      font_color='linen')
 
    return (fig)
 
