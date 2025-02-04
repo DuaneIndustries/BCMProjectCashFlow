@@ -115,8 +115,7 @@ def update_graph(cat_slctd):
                       paper_bgcolor='#353839',
                       plot_bgcolor='linen',
                       font_color='linen')
-
-   return (fig)
+      return (fig)
 
 
 # BAR
