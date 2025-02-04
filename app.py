@@ -95,7 +95,7 @@ app.layout = dbc.Container([
 ])
 
  #  Balance Line
- @app.callback(
+@app.callback(
     Output('balanceline', 'figure'),
     Input('my-checklist', 'value')
 )
