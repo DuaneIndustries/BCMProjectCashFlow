@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 
 
 green = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/CategoryTotalsv1.csv")
-roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashFlowTimeline.csv")
+roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashFlowTimelinev2.csv")
 
 #DATA CLEANING
 
@@ -66,58 +66,58 @@ app.layout = dbc.Container([
         ], width={'size' : 12}),
 
 ]),
- #   dbc.Row([
-    #    dbc.Col([
-      #      html.Label(['Filter by Vendor'], style={'font-weight': 'bold', 'color':'linen'}),
-       #     html.Br(),
-       #     dcc.Checklist(id='my-checklist', value=[
-         #       'Micro Innovation', 'Boyle', 'Penn','Embassy','LEAF', 'Zepole','SBS','Fresh Ink','Thought For Food','ECRS','KeHe',
-         #   'BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown','Aperion','Decor','Reed Sign','Payroll (store)'],
-           #               inline=False,
-            #              className="me-1",
-             #             style={'color': 'linen'},
-              #            inputStyle={'margin-left': '10px'},
-              #            options=[
-                #              {'label': x, 'value': x}
-                 #                  for x in roastlog['Vendor'].unique()
-                  #        ]
-                   #       ),
-           # ], width={'size': 2}),
-        #dbc.Col([
-         #       html.Br(),
-          #      dcc.Graph(id='balanceline',figure={},style={"border" : "2px linen solid"} )
-           # ], width={'size' : 10 }),
-        #html.Br(),
+    dbc.Row([
+        dbc.Col([
+            html.Label(['Filter by Vendor'], style={'font-weight': 'bold', 'color':'linen'}),
+            html.Br(),
+            dcc.Checklist(id='my-checklist', value=[
+                'Micro Innovation', 'Boyle', 'Penn','Embassy','LEAF', 'Zepole','SBS','Fresh Ink','Thought For Food','ECRS','KeHe',
+            'BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown','Aperion','Decor','Reed Sign','Payroll (store)'],
+                          inline=False,
+                          className="me-1",
+                          style={'color': 'linen'},
+                          inputStyle={'margin-left': '10px'},
+                          options=[
+                              {'label': x, 'value': x}
+                                   for x in roastlog['Vendor'].unique()
+                          ]
+                          ),
+            ], width={'size': 2}),
+        dbc.Col([
+                html.Br(),
+                dcc.Graph(id='balanceline',figure={},style={"border" : "2px linen solid"} )
+            ], width={'size' : 10 }),
+        html.Br(),
 
 
 
-#]),
+]),
 ])
 
-# Balance Line
-# @app.callback(
-   # Output('balanceline', 'figure'),
-   # Input('my-checklist', 'value')
-#)
+ #  Balance Line
+ @app.callback(
+    Output('balanceline', 'figure'),
+    Input('my-checklist', 'value')
+)
 
-#def update_graph(cat_slctd):
-    # recurringvendors = ['BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown',]
-    # vendors_to_display = cat_slctd + recurringvendors
-    # dff = roastlog[roastlog['Vendor'].isin(vendors_to_display)]
-   # dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
+def update_graph(cat_slctd):
+     recurringvendors = ['BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown',]
+     vendors_to_display = cat_slctd + recurringvendors
+     dff = roastlog[roastlog['Vendor'].isin(vendors_to_display)]
+    dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
 
-  #  fig = go.Figure()
-   # fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',
-    #                         line=dict(color='indianred', width=4)))
-   # fig.update_layout(title='Operating Balance',
-     #                 title_x=0.45,
-      #                xaxis_title='Date',
-       #               yaxis_title='Balance',
-       #               paper_bgcolor='#353839',
-        #              plot_bgcolor='linen',
-        #              font_color='linen')
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',
+                             line=dict(color='indianred', width=4)))
+    fig.update_layout(title='Operating Balance',
+                      title_x=0.45,
+                      xaxis_title='Date',
+                      yaxis_title='Balance',
+                      paper_bgcolor='#353839',
+                     plot_bgcolor='linen',
+                    font_color='linen')
 
-   # return (fig)
+   return (fig)
 
 
 # BAR
