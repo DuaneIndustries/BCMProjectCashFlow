@@ -104,12 +104,11 @@ def update_graph(cat_slctd):
      recurringvendors = ['BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown',]
      vendors_to_display = cat_slctd + recurringvendors
      dff = roastlog[roastlog['Vendor'].isin(vendors_to_display)]
-     dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
- 
-    fig = go.Figure()
-    fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',
+     dff = roastlog[roastlog['Vendor'].isin(cat_slctd)] 
+     fig = go.Figure()
+     fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',
                              line=dict(color='indianred', width=4)))
-    fig.update_layout(title='Operating Balance',
+     fig.update_layout(title='Operating Balance',
                       title_x=0.45,
                       xaxis_title='Date',
                       yaxis_title='Balance',
