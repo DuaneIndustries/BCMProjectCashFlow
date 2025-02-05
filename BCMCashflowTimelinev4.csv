@@ -1,0 +1,84 @@
+﻿Category,Subcategory,Description,Vendor,Start Date,Duration,End Date,Amount,Balance
+Revenue,Balance,Current Operating balance,BCM,2/4/2025,1,2/5/2025,233428.64,233428.64
+Revenue,PayPal,Paypal Donations,Paypal,2/5/2025,1,2/6/2025,920.98,234349.62
+Debt Service,Embassy,Interest,Embassy,2/7/2025,1,2/8/2025,-2057.3,232292.32
+Revenue,HUD,HUD drawdown # 10,HUD drawdown,2/7/2025,1,2/8/2025,35830.92,268123.24
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),2/7/2025,1,2/8/2025,-6580.68,261542.56
+Equipment,Aperion,Electronic Tag System,Aperion,2/7/2025,1,2/8/2025,-15383.3,246159.26
+Other,Marketing,50% due on delivery store sign,Reed Sign,2/7/2025,1,2/8/2025,-11684.91,234474.35
+Occupancy,Utilities,Electric (Estimated),PPL,2/10/2025,1,2/11/2025,-1100,233374.35
+Other,Marketing,Consulting (Website),Fresh Ink,2/10/2025,1,2/11/2025,-300,233074.35
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),2/14/2025,1,2/15/2025,-6580.68,226493.67
+Revenue,HUD,HUD drawdown #11,Hud Drawdown,2/21/2025,1,2/22/2025,461562.33,688056
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),2/21/2025,1,2/22/2025,-6580.68,681475.32
+Equipment,Zepole,Equipment Sales Order,Zepole,2/24/2025,1,2/25/2025,-252145.16,429330.16
+Construction,Low Voltage,Low Voltage Install,Micro Innovation,2/27/2025,1,2/1/2025,-9826.16,419504
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),2/28/2025,1,3/1/2025,-6127.53,413376.47
+Occupancy,Insurance,Insurance,Cincinnati Insurance,3/1/2025,1,3/2/2025,-1483,411893.47
+Debt Service,Embassy,Interest,Embassy,3/1/2025,1,3/2/2025,-2057.3,409836.17
+Debt Service,LEAF,Interest,LEAF,3/1/2025,1,3/2/2025,-2333.33,407502.84
+Debt Service,LEAF,Loan Balance Payment,LEAF,3/1/2025,1,3/2/2025,-402333.33,5169.51
+Occupancy,Rent,Rent,Market Flats,3/1/2025,1,3/2/2025,-14829,-9659.49
+Revenue,PayPal,Paypal Donations,Paypal,3/1/2025,1,3/2/2025,1000,-8659.49
+Debt Service,Penn,Interest,Penn,3/1/2025,1,3/2/2025,-5250,-13909.49
+Occupancy,Utilities,Electric (Estimated),PPL,3/1/2025,1,3/2/2025,-1100,-15009.49
+Other,Marketing,Consulting (Website),Fresh Ink,3/1/2025,1,3/2/2025,-300,-15309.49
+Project Management,SBS,Estimated Consulting Hours Refill,SBS,3/1/2025,1,3/2/2025,-5500,-20809.49
+Construction,Architecture & Design,Estimated Consulting Hours Refill,Thought For Food,3/1/2025,1,3/2/2025,-1440,-22249.49
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),3/7/2025,1,3/8/2025,-6580.68,-28830.17
+Revenue,HUD,HUD drawdown #12,HUD drawdown,3/10/2025,1,3/11/2025,259336.76,230506.59
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),3/14/2025,1,3/15/2025,-5040.68,225465.91
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),3/21/2025,1,3/22/2025,-5040.68,220425.23
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),3/28/2025,1,3/29/2025,-5040.68,215384.55
+Equipment,Aperion,Electronic Tag System,Aperion,3/30/2025,1,3/31/2025,-32991.7,182392.85
+Occupancy,Insurance,Insurance,Cincinnati Insurance,4/1/2025,1,4/2/2025,-1483,180909.85
+Debt Service,Embassy,Interest,Embassy,4/1/2025,1,4/2/2025,-2057.3,178852.55
+Debt Service,LEAF,Interest,LEAF,4/1/2025,1,4/2/2025,-2333.33,176519.22
+Occupancy,Rent,Rent,Market Flats,4/1/2025,1,4/2/2025,-14829,161690.22
+Revenue,PayPal,Paypal Donations,Paypal,4/1/2025,1,4/2/2025,1000,162690.22
+Debt Service,Penn,Interest,Penn,4/1/2025,1,4/2/2025,-5250,157440.22
+Occupancy,Utilities,Electric (Estimated),PPL,4/1/2025,1,4/2/2025,-1100,156340.22
+Other,Marketing,Consulting (Website),Fresh Ink,4/1/2025,1,4/2/2025,-300,156040.22
+Project Management,SBS,Estimated Consulting Hours Refill,SBS,4/1/2025,1,4/2/2025,-5500,150540.22
+Construction,Architecture & Design,Estimated Consulting Hours Refill,Thought For Food,4/1/2025,1,4/2/2025,-1440,149100.22
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),4/4/2025,1,4/5/2025,-5040.68,144059.54
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),4/11/2025,1,4/12/2025,-5040.68,139018.86
+Equipment,Zepole,Equipment Sales Order,Zepole,4/14/2025,1,4/15/2025,-315181.45,-176162.59
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),4/18/2025,1,4/19/2025,-5040.68,-181203.27
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),4/25/2025,1,4/26/2025,-5040.68,-186243.95
+Construction,Construction,unbilled (including retainage),Boyle,5/1/2025,1,5/2/2025,-155267.14,-341511.09
+Occupancy,Insurance,Insurance,Cincinnati Insurance,5/1/2025,1,5/2/2025,-1483,-342994.09
+Supplies & Materials,Interior Decor,Décor Package (Vendor TBD),Decor,5/1/2025,1,5/2/2025,-70000,-412994.09
+Debt Service,Embassy,Interest,Embassy,5/1/2025,1,5/2/2025,-2057.3,-415051.39
+Debt Service,LEAF,Interest,LEAF,5/1/2025,1,5/2/2025,-2333.33,-417384.72
+Occupancy,Rent,Rent,Market Flats,5/1/2025,1,5/2/2025,-14829,-432213.72
+Debt Service,Penn,Interest,Penn,5/1/2025,1,5/2/2025,-5250,-437463.72
+Occupancy,Utilities,Electric (Estimated),PPL,5/1/2025,1,5/2/2025,-1100,-438563.72
+Other,Marketing,Consulting (Website),Fresh Ink,5/1/2025,1,5/2/2025,-300,-438863.72
+Project Management,SBS,Estimated Consulting Hours Refill,SBS,5/1/2025,1,5/2/2025,-5500,-444363.72
+Construction,Architecture & Design,Estimated Consulting Hours Refill,Thought For Food,5/1/2025,1,5/2/2025,-1440,-445803.72
+Equipment,Coffee Equipment,Coffee Bar Equipment,Zepole,5/1/2025,1,5/2/2025,-18000,-463803.72
+Supplies & Materials,Small Wares,Kitchen Small Wares,Zepole,5/1/2025,1,5/2/2025,-18000,-481803.72
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/2/2025,1,5/3/2025,-5040.68,-486844.4
+Salary,Payroll (store),Payroll (store),Payroll (store),5/2/2025,1,5/3/2025,-17088.15,-503932.55
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/9/2025,1,5/10/2025,-5040.68,-508973.23
+Salary,Payroll (store),Payroll (store),Payroll (store),5/9/2025,1,5/10/2025,-17088.15,-526061.38
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/16/2025,1,5/17/2025,-5040.68,-531102.06
+Salary,Payroll (store),Payroll (store),Payroll (store),5/16/2025,1,5/17/2025,-17088.15,-548190.21
+Salary,Payroll (store),Payroll (store),Payroll (store),5/16/2025,1,5/17/2025,-17088.15,-565278.36
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/23/2025,1,5/24/2025,-5040.68,-570319.04
+Salary,Payroll (admin),Payroll (admin),Payroll (admin),5/30/2025,1,5/31/2025,-5040.68,-575359.72
+Equipment,ECRS,Registers + other POS equipment,ECRS,5/30/2025,1,5/31/2025,-83318.11,-658677.83
+Equipment,Zepole,Equipment Sales Order,Zepole,5/31/2025,1,6/1/2025,-59799.05,-718476.88
+Occupancy,Insurance,Insurance,Cincinnati Insurance,6/1/2025,1,6/2/2025,-1483,-719959.88
+Debt Service,Embassy,Interest,Embassy,6/1/2025,1,6/2/2025,-2057.3,-722017.18
+Debt Service,LEAF,Interest,LEAF,6/1/2025,1,6/2/2025,-2333.33,-724350.51
+Occupancy,Rent,Rent,Market Flats,6/1/2025,1,6/2/2025,-14829,-739179.51
+Debt Service,Penn,Interest,Penn,6/1/2025,1,6/2/2025,-5250,-744429.51
+Occupancy,Utilities,Electric (Estimated),PPL,6/1/2025,1,6/2/2025,-1100,-745529.51
+Other,Marketing,Consulting (Website),Fresh Ink,6/1/2025,1,6/2/2025,-300,-745829.51
+Project Management,SBS,Estimated Consulting Hours Refill,SBS,6/1/2025,1,6/2/2025,-5500,-751329.51
+Construction,Architecture & Design,Estimated Consulting Hours Refill,Thought For Food,6/1/2025,1,6/2/2025,-1440,-752769.51
+Other,Opening Inventory,Opening Inventory,KeHe,6/1/2025,1,6/2/2025,-327412,-1080181.51
+Debt Service,Embassy,Loan Payoff,Embassy,6/4/2025,1,6/5/2025,-400000,-1480181.51
+Debt Service,Penn,Loan Payoff,Penn,6/15/2025,1,6/16/2025,-700000,-2180181.51
