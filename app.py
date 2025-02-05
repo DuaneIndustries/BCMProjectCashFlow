@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 
 
 green = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/CategoryTotalsv1.csv")
-roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashFlowTimelinev3.csv")
+roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashflow/refs/heads/main/BCMCashFlowTimelinev3.csv")
 
 #DATA CLEANING
 
