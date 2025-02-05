@@ -10,6 +10,7 @@ import plotly.graph_objects as go
 
 
 
+
 green = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/CategoryTotalsv1.csv")
 roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashflowTimelinev5.csv")
 
@@ -24,6 +25,17 @@ roastlog['End Date'] = pd.to_datetime(roastlog['End Date'], format="%m/%d/%y")
 roastlog['Start Date'] = roastlog['Start Date'].dt.normalize()
 roastlog['End Date'] = roastlog['End Date'].dt.normalize()
 
+dff = roastlog
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], line=dict(color='indianred', width=4)))
+fig.update_layout(title='Projected Operating Balance',
+                    title_x=0.45,
+                    xaxis_title='Date',
+                    yaxis_title='Balance',
+                    paper_bgcolor='#353839',
+                    plot_bgcolor='linen',
+                    font_color='linen',
+                    )
 
 
 
@@ -31,19 +43,15 @@ roastlog['End Date'] = roastlog['End Date'].dt.normalize()
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.SLATE])
 server=app.server
+
  # app.config.suppress_callback_exceptions=True
 
-# server.secret_key = os.urandom(24)
-#
-# auth = dash_auth.BasicAuth(
-#     app,
-#     VALID_USERNAME_PASSWORD_PAIRS
-# )
+
 
 # LAYOUT
 app.layout = dbc.Container([
     dbc.Row([
-        dbc.Col(html.H1('Project Cost Analysis',
+        dbc.Col(html.H1('BCM Project Cost Analysis',
                         style={'textAlign' : 'center','color' : 'Linen'},
                         className='text-m-center mb-m-4'),
                 width=12)
@@ -67,25 +75,28 @@ app.layout = dbc.Container([
 
 ]),
     dbc.Row([
-        dbc.Col([
-            html.Label(['Filter by Vendor'], style={'font-weight': 'bold', 'color':'linen'}),
-            html.Br(),
-            dcc.Checklist(id='my-checklist', value=[
-                'Micro Innovation', 'Boyle', 'Penn','Embassy','LEAF', 'Zepole','SBS','Fresh Ink','Thought For Food','ECRS','KeHe',
-            'BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown','Aperion','Decor','Reed Sign','Payroll (store)'],
-                          inline=False,
-                          className="me-1",
-                          style={'color': 'linen'},
-                          inputStyle={'margin-left': '10px'},
-                          options=[
-                              {'label': x, 'value': x}
-                                   for x in roastlog['Vendor'].unique()
-                          ]
-                          ),
-            ], width={'size': 2}),
+        # dbc.Col([
+        #     html.Label(['Filter by Vendor'], style={'font-weight': 'bold', 'color':'linen'}),
+        #     html.Br(),
+        #     dcc.Checklist(id='my-checklist', value=[
+        #         'Micro Innovation', 'Boyle', 'Penn','Embassy','LEAF', 'Zepole','SBS','Fresh Ink','Thought For Food','ECRS','KeHe',
+        #     'BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown','Aperion','Decor','Reed Sign','Payroll (store)'],
+        #                   inline=False,
+        #                   className="me-1",
+        #                   style={'color': 'linen'},
+        #                   inputStyle={'margin-left': '10px'},
+        #                   options=[
+        #                       {'label': x, 'value': x}
+        #                            for x in roastlog['Vendor'].unique()
+        #                   ]
+        #                   ),
+        #     ], width={'size': 2}),
         dbc.Col([
                 html.Br(),
-                dcc.Graph(id='balanceline',figure={},style={"border" : "2px linen solid"} )
+                dcc.Graph(
+                    # id='balanceline',
+                    figure=fig,
+                    style={"border" : "2px linen solid"} )
             ], width={'size' : 10 }),
         html.Br(),
 
@@ -94,29 +105,32 @@ app.layout = dbc.Container([
 ]),
 ])
 
- #  Balance Line
-@app.callback(
-    Output('balanceline', 'figure'),
-    Input('my-checklist', 'value')
-)
+# Balance Line
 
-def update_graph(cat_slctd):
-     #recurringvendors = ['BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown',]
-     #vendors_to_display = cat_slctd + recurringvendors
-     #dff = roastlog[roastlog['Vendor'].isin(vendors_to_display)]
-     dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
+# @app.callback(
+#     Output('balanceline', 'figure'),
+#     Input('my-checklist', 'value')
+# )
 
-     fig = go.Figure()
-     fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',
-                             line=dict(color='indianred', width=4)))
-     fig.update_layout(title='Operating Balance',
-                      title_x=0.45,
-                      xaxis_title='Date',
-                      yaxis_title='Balance',
-                      paper_bgcolor='#353839',
-                      plot_bgcolor='linen',
-                      font_color='linen')
-     return (fig)
+# def update_graph(cat_slctd):
+#     recurringvendors = ['BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown',]
+#     vendors_to_display = cat_slctd + recurringvendors
+#     dff = roastlog[roastlog['Vendor'].isin(vendors_to_display)]
+#     dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
+
+#     fig = go.Figure()
+#     fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',
+#                              line=dict(color='indianred', width=4)))
+#     fig.update_layout(title='Projected Operating Balance',
+#                       title_x=0.45,
+#                       xaxis_title='Date',
+#                       yaxis_title='Balance',
+#                       paper_bgcolor='#353839',
+#                       plot_bgcolor='linen',
+#                       font_color='linen')
+
+#     return (fig)
+
 
 # BAR
 @app.callback(
@@ -145,4 +159,3 @@ def update_figure(selected_x_value):
 
 if __name__ == '__main__' :
     app.run_server(debug=True)
-
