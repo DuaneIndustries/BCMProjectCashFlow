@@ -30,7 +30,7 @@ dff['Color'] = dff['Category'].map(color_map)
 
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], line=dict(color='darkgrey', width=4)))
-fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], mode='markers',marker=dict(color=dff['Color'],colorscale="Viridis",showscale=False)))
+fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], mode='markers',marker=dict(color=dff['Color'],showscale=False)))
 fig.update_layout(title='Projected Operating Balance',
                     title_x=0.45,
                     xaxis_title='Date',
@@ -38,8 +38,24 @@ fig.update_layout(title='Projected Operating Balance',
                     paper_bgcolor='#353839',
                     plot_bgcolor='linen',
                     font_color='linen',
-                    showlegend=False
-                    )
+                    showlegend=False,
+                    xaxis=dict(
+        rangeselector=dict(
+            buttons=list([
+                dict(step="month", stepmode="backward", count=1, label="Month"),
+                dict(step="month", stepmode="backward", count=3, label="3 Month"),
+                dict(step="month", stepmode="backward", count=6, label="6 Month"),
+                dict(step="all", label="All")
+            ]),
+            bgcolor="lightblue",
+            activecolor='darkgrey'
+        ),
+        rangeslider=dict(
+            visible=True
+        ),
+        type="date"
+    )
+)
 
 
 #for deploying
