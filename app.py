@@ -25,12 +25,37 @@ roastlog['End Date'] = pd.to_datetime(roastlog['End Date'], format="%m/%d/%y")
 roastlog['Start Date'] = roastlog['Start Date'].dt.normalize()
 roastlog['End Date'] = roastlog['End Date'].dt.normalize()
 
+
+color_map = {
+    'Construction': 'red',
+    'Debt Service': 'blue',
+    'Equipment': 'darkred',
+    'Occupancy' : 'yellow',
+    'Project Management' : 'purple',
+    'Revenue' : 'darkgreen',
+    'Salary' : 'black',
+    'Supplies & Materials' : 'orange',
+    "Other" : "Gray"
+}
+
 dff = roastlog
 dff['Color'] = dff['Category'].map(color_map)
 
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], line=dict(color='darkgrey', width=4)))
 fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], mode='markers',marker=dict(color=dff['Color'],showscale=False)))
+fig.add_shape(
+    type="rect",
+    xref="x",
+    yref="y",
+    x0=min(dff['Start Date']),
+    y0=min(dff['Balance']),
+    x1=max(dff['Start Date']),
+    y1=0,
+    fillcolor="red",
+    opacity=0.2,
+    layer="below",
+    line_width=0)
 fig.update_layout(title='Projected Operating Balance',
                     title_x=0.45,
                     xaxis_title='Date',
