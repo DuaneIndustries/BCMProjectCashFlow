@@ -39,11 +39,12 @@ color_map = {
 }
 
 dff = roastlog
+dff['HoverText'] = dff['Vendor'] + '<br>Amount: ' + dff['Amount'].astype(str)
 dff['Color'] = dff['Category'].map(color_map)
 
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], line=dict(color='darkgrey', width=4)))
-fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor','Amount'], mode='markers',marker=dict(color=dff['Color'],showscale=False)))
+fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['HoverText'], mode='markers',marker=dict(color=dff['Color'],showscale=False)))
 fig.add_shape(
     type="rect",
     xref="x",
@@ -79,6 +80,9 @@ fig.update_layout(title='Projected Operating Balance',
             visible=True
         ),
         type="date"
+    ),
+    yaxis=dict(
+        range=[-2_000_000, 1_000_000]  # Set the y-axis range
     )
 )
 
