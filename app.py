@@ -43,7 +43,7 @@ dff['Color'] = dff['Category'].map(color_map)
 
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], line=dict(color='darkgrey', width=4)))
-fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], mode='markers',marker=dict(color=dff['Color'],showscale=False)))
+fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor','Amount'], mode='markers',marker=dict(color=dff['Color'],showscale=False)))
 fig.add_shape(
     type="rect",
     xref="x",
