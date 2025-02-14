@@ -26,8 +26,11 @@ roastlog['Start Date'] = roastlog['Start Date'].dt.normalize()
 roastlog['End Date'] = roastlog['End Date'].dt.normalize()
 
 dff = roastlog
+dff['Color'] = dff['Category'].map(color_map)
+
 fig = go.Figure()
-fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',color=dff['Category'],hovertext=dff['Vendor'], line=dict(color='indianred', width=4)))
+fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], line=dict(color='darkgrey', width=4)))
+fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], mode='markers',marker=dict(color=dff['Color'],colorscale="Viridis",showscale=False)))
 fig.update_layout(title='Projected Operating Balance',
                     title_x=0.45,
                     xaxis_title='Date',
@@ -35,8 +38,8 @@ fig.update_layout(title='Projected Operating Balance',
                     paper_bgcolor='#353839',
                     plot_bgcolor='linen',
                     font_color='linen',
+                    showlegend=False
                     )
-
 
 
 #for deploying
