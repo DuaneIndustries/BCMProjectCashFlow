@@ -141,7 +141,7 @@ app.layout = dbc.Container([
                     # id='balanceline',
                     figure=fig,
                     style={"border" : "2px linen solid"} )
-            ], width={'size' : 10 }),
+            ], width={'size' : 12 }),
         html.Br(),
 
 
