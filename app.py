@@ -8,11 +8,8 @@ import os
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 
-
-
-
 green = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/CategoryTotalsv1.csv")
-roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashflowTimelinev10.csv")
+roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashflowTimelinev11.csv")
 
 #DATA CLEANING
 
@@ -24,6 +21,8 @@ roastlog['Start Date'] = pd.to_datetime(roastlog['Start Date'], format="%m/%d/%y
 roastlog['End Date'] = pd.to_datetime(roastlog['End Date'], format="%m/%d/%y")
 roastlog['Start Date'] = roastlog['Start Date'].dt.normalize()
 roastlog['End Date'] = roastlog['End Date'].dt.normalize()
+
+
 
 
 color_map = {
@@ -38,54 +37,14 @@ color_map = {
     "Other" : "Gray"
 }
 
+
+
+roastlog['HoverText'] = roastlog['Vendor'] + '<br>Amount: ' + roastlog['Amount'].astype(str) +"<br>Notes:" + roastlog["Notes"]
+roastlog['Color'] = roastlog['Category'].map(color_map)
+
+
+
 dff = roastlog
-dff['HoverText'] = dff['Vendor'] + '<br>Amount: ' + dff['Amount'].astype(str)
-dff['Color'] = dff['Category'].map(color_map)
-
-fig = go.Figure()
-fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['Vendor'], line=dict(color='darkgrey', width=4)))
-fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',hovertext=dff['HoverText'], mode='markers',marker=dict(color=dff['Color'],showscale=False)))
-fig.add_shape(
-    type="rect",
-    xref="x",
-    yref="y",
-    x0=min(dff['Start Date']),
-    y0=min(dff['Balance']),
-    x1=max(dff['Start Date']),
-    y1=0,
-    fillcolor="red",
-    opacity=0.2,
-    layer="below",
-    line_width=0)
-fig.update_layout(title='Projected Operating Balance',
-                    title_x=0.45,
-                    xaxis_title='Date',
-                    yaxis_title='Balance',
-                    paper_bgcolor='#353839',
-                    plot_bgcolor='linen',
-                    font_color='linen',
-                    showlegend=False,
-                    xaxis=dict(
-        rangeselector=dict(
-            buttons=list([
-                dict(step="month", stepmode="backward", count=1, label="Month"),
-                dict(step="month", stepmode="backward", count=3, label="3 Month"),
-                dict(step="month", stepmode="backward", count=6, label="6 Month"),
-                dict(step="all", label="All")
-            ]),
-            bgcolor="lightblue",
-            activecolor='darkgrey'
-        ),
-        rangeslider=dict(
-            visible=True
-        ),
-        type="date"
-    ),
-    yaxis=dict(
-        range=[-2_000_000, 1_000_000]  # Set the y-axis range
-    )
-)
-
 
 #for deploying
 
@@ -123,29 +82,24 @@ app.layout = dbc.Container([
 
 ]),
     dbc.Row([
-        # dbc.Col([
-        #     html.Label(['Filter by Vendor'], style={'font-weight': 'bold', 'color':'linen'}),
-        #     html.Br(),
-        #     dcc.Checklist(id='my-checklist', value=[
-        #         'Micro Innovation', 'Boyle', 'Penn','Embassy','LEAF', 'Zepole','SBS','Fresh Ink','Thought For Food','ECRS','KeHe',
-        #     'BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown','Aperion','Decor','Reed Sign','Payroll (store)'],
-        #                   inline=False,
-        #                   className="me-1",
-        #                   style={'color': 'linen'},
-        #                   inputStyle={'margin-left': '10px'},
-        #                   options=[
-        #                       {'label': x, 'value': x}
-        #                            for x in roastlog['Vendor'].unique()
-        #                   ]
-        #                   ),
-        #     ], width={'size': 2}),
+        dbc.Col([
+            html.Label(['Filter by Vendor'], style={'font-weight': 'bold', 'color':'linen'}),
+            html.Br(),
+            dcc.Checklist(id='my-checklist', value=["Aperion","BCM","Cincinnati Insurance","Decor","ECRS","Embassy","Fresh Ink","Hud Drawdown","KeHe","LEAF","Market Flats","Micro Innovation","Paypal","Payroll (admin)","Payroll (store)","Penn","PPL","SBS","Zepole","Boyle"],
+                          inline=False,
+                          className="me-1",
+                          style={'color': 'linen'},
+                          inputStyle={'margin-left': '10px'},
+                          options=[{'label': vendor, 'value': vendor} for vendor in dff['Vendor'].unique()]
+                          ),
+            ], width={'size': 2}),
         dbc.Col([
                 html.Br(),
                 dcc.Graph(
-                    # id='balanceline',
-                    figure=fig,
+                     id='balanceline',
+                    figure={},
                     style={"border" : "2px linen solid"} )
-            ], width={'size' : 12 }),
+            ], width={'size' : 10 }),
         html.Br(),
 
 
@@ -155,29 +109,63 @@ app.layout = dbc.Container([
 
 # Balance Line
 
-# @app.callback(
-#     Output('balanceline', 'figure'),
-#     Input('my-checklist', 'value')
-# )
+@app.callback(
+    Output('balanceline', 'figure'),
+    Input('my-checklist', 'value')
+)
 
-# def update_graph(cat_slctd):
-#     recurringvendors = ['BCM','Payroll (admin)','Cincinnati Insurance','Market Flats','Paypal','PPL','HUD drawdown',]
-#     vendors_to_display = cat_slctd + recurringvendors
-#     dff = roastlog[roastlog['Vendor'].isin(vendors_to_display)]
-#     dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
+def update_graph(cat_slctd):
 
-#     fig = go.Figure()
-#     fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Balance'], name='Balance',
-#                              line=dict(color='indianred', width=4)))
-#     fig.update_layout(title='Projected Operating Balance',
-#                       title_x=0.45,
-#                       xaxis_title='Date',
-#                       yaxis_title='Balance',
-#                       paper_bgcolor='#353839',
-#                       plot_bgcolor='linen',
-#                       font_color='linen')
+    dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
+    starting_balance = 213982.26 
+    dff = dff.sort_values(by='Start Date')
+    dff['Cumulative Balance'] = dff['Amount'].cumsum() + starting_balance
 
-#     return (fig)
+
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Cumulative Balance'], name='Balance',hovertext=dff['Vendor'], line=dict(color='darkgrey', width=4)))
+    fig.add_trace(go.Scatter(x=dff['Start Date'], y=dff['Cumulative Balance'], name='Balance',hovertext=dff['HoverText'], mode='markers',marker=dict(color=dff['Color'],showscale=False)))
+    fig.add_shape(
+        type="rect",
+        xref="x",
+        yref="y",
+        x0=min(dff['Start Date']),
+        y0=min(dff['Balance']),
+        x1=max(dff['Start Date']),
+        y1=0,
+        fillcolor="red",
+        opacity=0.2,
+        layer="below",
+        line_width=0)
+    fig.update_layout(title='Projected Operating Balance',
+                    title_x=0.45,
+                    xaxis_title='Date',
+                    yaxis_title='Balance',
+                    paper_bgcolor='#353839',
+                    plot_bgcolor='linen',
+                    font_color='linen',
+                    showlegend=False,
+                    xaxis=dict(
+        rangeselector=dict(
+            buttons=list([
+                dict(step="month", stepmode="backward", count=1, label="Month"),
+                dict(step="month", stepmode="backward", count=3, label="3 Month"),
+                dict(step="month", stepmode="backward", count=6, label="6 Month"),
+                dict(step="all", label="All")
+            ]),
+            bgcolor="lightblue",
+            activecolor='darkgrey'
+            ),
+            rangeslider=dict(
+                visible=True
+            ),
+            type="date"
+        ),
+        yaxis=dict(
+            range=[-2_000_000, 1_000_000]  # Set the y-axis range
+            )
+    )
+    return (fig)
 
 
 # BAR
