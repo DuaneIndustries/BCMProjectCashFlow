@@ -73,7 +73,7 @@ Occupancy,Utilities,Electric (Estimated),recurring,PPL,6/9/25,1,6/10/25,-1100.00
 Project Management,SBS,Estimated Consulting Hours Refill,estimate,SBS,6/11/25,1,6/12/25,-5500.00,-501459.86
 Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/13/25,1,6/14/25,-5040.68,-506500.54
 Salary,Payroll (store),Payroll (store),estimate,Payroll (store),6/13/25,1,6/14/25,-17088.15,-523588.69
-Other,Opening Inventory,Opening Inventory,estimate - based on Pro Forma,KeHe,6/15/25,1,6/16/25,-327412.00,-851000.69
+Other,Opening Inventory,Opening Inventory,Opening Inventory estimate - based on Pro Forma,KeHe,6/15/25,1,6/16/25,-327412.00,-851000.69
 Debt Service,Penn,Interest,recurring,Penn,6/15/25,1,6/16/25,-5250.00,-856250.69
 Debt Service,Penn,Loan Payoff,recurring,Penn,6/15/25,1,6/16/25,-700000.00,-1556250.69
 Revenue,HUD,HUD drawdown #15,Includes Occupancy + Other (Inventory),Hud Drawdown,6/18/25,1,6/19/25,240185.89,-1316064.80
