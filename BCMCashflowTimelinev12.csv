@@ -81,7 +81,7 @@ Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/20/25,1,6/21/2
 Salary,Payroll (store),Payroll (store),estimate,Payroll (store),6/20/25,1,6/21/25,-17088.15,-1338193.63
 Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/27/25,1,6/28/25,-5040.68,-1343234.31
 Salary,Payroll (store),Payroll (store),estimate,Payroll (store),6/27/25,1,6/28/25,-17088.15,-1360322.46
-Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,BCM,7/1/25,1,7/2/25,17173.03,-1343149.43
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,7/1/25,1,7/2/25,17173.03,-1343149.43
 Construction,Construction,unbilled (including retainage),due on completion,Boyle,7/1/25,1,7/2/25,-155267.14,-1498416.57
 Occupancy,Rent,Rent,recurring,Market Flats,7/1/25,1,7/2/25,-14829.00,-1513245.57
 Revenue,PayPal,Paypal Donations,member equity,Paypal,7/1/25,1,7/2/25,1000.00,-1512245.57
