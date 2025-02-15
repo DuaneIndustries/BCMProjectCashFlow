@@ -64,7 +64,7 @@ Debt Service,Embassy,Interest,interest,Embassy,6/1/25,1,6/2/25,-2057.30,-61170.1
 Other,Marketing,Consulting (Website),recurring,Fresh Ink,6/1/25,1,6/2/25,-300.00,-61470.11
 Occupancy,Rent,Rent,recurring,Market Flats,6/1/25,1,6/2/25,-14829.00,-76299.11
 Revenue,PayPal,Paypal Donations,member equity,Paypal,6/1/25,1,6/2/25,1000.00,-75299.11
-Debt Service,Embassy,Loan Payoff,interest,Embassy,6/4/25,1,6/5/25,-400000.00,-475299.11
+Debt Service,Embassy,Loan Payoff,Payoff,Embassy,6/4/25,1,6/5/25,-400000.00,-475299.11
 Debt Service,LEAF,Interest,principal + interest,LEAF,6/5/25,1,6/6/25,-6037.07,-481336.18
 Occupancy,Insurance,Insurance,recurring,Cincinnati Insurance,6/6/25,1,6/7/25,-1483.00,-482819.18
 Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/6/25,1,6/7/25,-5040.68,-487859.86
@@ -75,7 +75,7 @@ Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/13/25,1,6/14/2
 Salary,Payroll (store),Payroll (store),estimate,Payroll (store),6/13/25,1,6/14/25,-17088.15,-523588.69
 Other,Opening Inventory,Opening Inventory,Opening Inventory estimate - based on Pro Forma,KeHe,6/15/25,1,6/16/25,-327412.00,-851000.69
 Debt Service,Penn,Interest,recurring,Penn,6/15/25,1,6/16/25,-5250.00,-856250.69
-Debt Service,Penn,Loan Payoff,recurring,Penn,6/15/25,1,6/16/25,-700000.00,-1556250.69
+Debt Service,Penn,Loan Payoff,Payoff,Penn,6/15/25,1,6/16/25,-700000.00,-1556250.69
 Revenue,HUD,HUD drawdown #15,Includes Occupancy + Other (Inventory),Hud Drawdown,6/18/25,1,6/19/25,240185.89,-1316064.80
 Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/20/25,1,6/21/25,-5040.68,-1321105.48
 Salary,Payroll (store),Payroll (store),estimate,Payroll (store),6/20/25,1,6/21/25,-17088.15,-1338193.63
