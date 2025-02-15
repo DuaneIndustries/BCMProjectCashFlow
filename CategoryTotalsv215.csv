@@ -1,0 +1,42 @@
+﻿Category,subcategory,Projected,Current,Remaining cost until store opening,Notes
+Total,Salaries,271500.00,205083.54,140579.46,Note : 
+Salaries,GM,35000.00,78528.17,32340,Note : 
+Salaries,ARGM,22917.00,21923.15,24230.85,Note : 
+Salaries,ACCOUNTING,22917.00,27231.91,24230.85,Note : 
+Salaries,HR,22917.00,8204.50,13739.25,Note : 
+Salaries,PREP,22917.00,17076.98,24230.85,Note : 
+Salaries,MARKETING,22917.00,52118.83,21807.66,Note : 
+Salaries,Store,144833.00,0.00,-79264.45,"Note : Includes the following prior to open labor costs : 31 Staff for 1 month, 5 dept heads for 2 months, Receiving Director for 3 months"
+Total,Fringe Benefits,48870.00,42548.23,26411.7,Note : 
+Fringe Benefits,Health,0.00,20806.48,25200,Note : 
+Fringe Benefits,Cell Reimbursement,0.00,17707.92,1211.7,Note : 
+Fringe Benefits,Holiday Pay,0.00,1430.88,0,Note : 
+Fringe Benefits,Sick TIme,0.00,0.00,0,Note : 
+Fringe Benefits,ER PAID,0.00,553.84,0,Note : 
+Fringe Benefits,MISC REIMB,0.00,2049.11,0,Note : 
+Total,Equipment,1217000.00,630362.91,705330.266,"Includes all equipment laid out in project narrative, including fixtures, refrigeration equipment (and associated installation), shelving, POS system, misting system, delivery vehicles, and other equipment."
+Equipment,Zepole,1200000.00,630362.91,627125.666,Note : 
+Equipment,Aperion,0.00,0.00,48375,Note : 
+Equipment,Coffee Equipment,0.00,0.00,18000,Note : 
+Total,Materials and Supplies,120000.00,0.00,86829.6,"Includes shopping carts, small wares, interior decor, and other supplies "
+Materials and Supplies,Shopping Carts,10000.00,0.00,11829.6,"Includes carts, cart retension locks, and shopping baskets.  Backed out of Zepole Equip. #"
+Materials and Supplies,Small Wares,40000.00,0.00,18000,"Includes items like chairs, tables, phones, garbage cans, etc. "
+Materials and Supplies,Interior Décor,70000.00,0.00,57000,Includes deocr items and interior signage
+Total,Construction,1158600.00,1688616.69,165093.3,Note : 
+Construction,Building Permits & Fees,31500.00,325.00,0,Note : 
+Construction,Architectural and Engineering,144920.00,161912.12,0,Note : Thought For Food estimated
+Construction,Boyle Construction,982180.00,1516840.00,155267.14,Note : 
+Construction,Low Voltage Install,0.00,9539.57,9826.16,Note : 
+Total,Occupancy,273109.00,48148.44,90960,Note : 
+Occupancy,Lease,189426.00,29658.00,74145,Note : 
+Occupancy,Utilities,64519.00,5614.67,9400,Note :  Rough Estimate
+Occupancy,Insurance,19164.00,12875.77,7415,Note : Not including worker's comp
+Total,Other,287847.00,19747.25,328612,Note : 
+Other,Marketing,102847.00,11684.91,1200,Includes Store sign + Fresh ink
+Other,Inventory,185000.00,8062.34,327412,Wholesale purchase of store product to sell at retail to customers. Please see budget narrative for calculation method.
+Total,Project Management,142000.00,292400.43,22000,Project + grants management costs management costs (4% of total project budget); please see budget narrative.
+Project Management,SBS,142000.00,292400.43,22000,Note : 
+Total,Debt Service,1400000.00,54079.88,1155710.81,Note : 
+Debt Service,LEAF,400000.00,22760.31,26481.61,Note : 
+Debt Service,Embassy,300000.00,12989.96,408229.2,Note : 
+Debt Service,Penn,700000.00,18329.61,721000,Note : 
