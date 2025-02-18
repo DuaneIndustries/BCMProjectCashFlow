@@ -182,7 +182,7 @@ def update_figure(selected_x_value):
     figx.add_trace(go.Bar(x=filtered_df['subcategory'], y=filtered_df['Remaining cost until store opening'], name='Projected Cost to Completion',text=filtered_df['Total Cost'],textposition='auto', opacity=.5,offsetgroup=1,base=filtered_df['Current'], marker = dict(color='indianred',pattern_shape='/')))
 
     figx.update_layout(barmode='overlay',
-                       title='Category Totals',
+                       title='Grant Budget v Actuals by Category',
                        title_x=0.5,
                        xaxis_title='Subcategory',
                        yaxis_title='Cost',
