@@ -6,7 +6,7 @@ Salaries,ACCOUNTING,22917.00,27231.91,24230.85,51462.76,Note :
 Salaries,HR,22917.00,8204.50,13739.25,21943.75,Note : 
 Salaries,PREP,22917.00,17076.98,24230.85,41307.83,Note : 
 Salaries,MARKETING,22917.00,52118.83,21807.66,73926.49,Note : 
-Salaries,Store,144833.00,0.00,-79264.45,-79264.45,"Note : Includes the following prior to open labor costs : 31 Staff for 1 month, 5 dept heads for 2 months, Receiving Director for 3 months"
+Salaries,Store,144833.00,0.00,-79264.45,79264.45,"Note : Includes the following prior to open labor costs : 31 Staff for 1 month, 5 dept heads for 2 months, Receiving Director for 3 months"
 Total,Fringe Benefits,48870.00,42548.23,26411.7,68959.93,Note : 
 Fringe Benefits,Health,48870.00,20806.48,25200,46006.48,Note : 
 Fringe Benefits,Cell Reimbursement,0.00,17707.92,1211.7,18919.62,Note : 
