@@ -179,7 +179,7 @@ def update_figure(selected_x_value):
 
     figx = go.Figure(go.Bar(x=filtered_df['subcategory'], y=filtered_df['Projected'], name='Budgeted',offsetgroup=0, marker = dict(color='dimgrey', pattern_shape='-')))
     figx.add_trace(go.Bar(x=filtered_df['subcategory'],y=filtered_df['Current'], name='Paid to Date', opacity=.5, offsetgroup=1, marker = dict(color='darkblue')))
-    figx.add_trace(go.Bar(x=filtered_df['subcategory'], y=filtered_df['Remaining cost until store opening'], name='Projected Cost to Completion',text=filtered_df['Total Cost'],textposition='auto', opacity=.5,offsetgroup=1,base=filtered_df['Current'], marker = dict(color='indianred',pattern_shape='/')))
+    figx.add_trace(go.Bar(x=filtered_df['subcategory'], y=filtered_df['Remaining cost until store opening'],hovertext=filtered_df['Notes'], name='Projected Cost to Completion',text=filtered_df['Total Cost'],textposition='auto', opacity=.5,offsetgroup=1,base=filtered_df['Current'], marker = dict(color='indianred',pattern_shape='/')))
 
     figx.update_layout(barmode='overlay',
                        title='Grant Budget v Actuals by Category',
