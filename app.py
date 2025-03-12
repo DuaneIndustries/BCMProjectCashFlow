@@ -9,7 +9,7 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 
 green = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/CategoryTotalsv223.csv")
-roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashflowTimelinev18.csv")
+roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashflowTimelinev21.csv")
 
 #DATA CLEANING
 
