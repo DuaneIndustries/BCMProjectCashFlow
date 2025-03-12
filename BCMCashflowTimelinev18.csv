@@ -16,7 +16,6 @@ Debt Service,LEAF,Interest,principal + interest,LEAF,4/5/25,1,4/6/25,-6037.07,29
 Occupancy,Utilities,Electric (Estimated),recurring,PPL,4/9/25,1,4/10/25,-1100,293254.72
 Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),4/11/25,1,4/12/25,-5040.68,288214.04
 Project Management,SBS,Estimated Consulting Hours Refill,estimate,SBS,4/11/25,1,4/12/25,-5500,282714.04
-Equipment,Zepole,Equipment Sales Order,current payment plan - need to renegotiate,Zepole,4/14/25,1,4/15/25,-315181.45,-32467.41
 Revenue,HUD,HUD drawdown #13,"Includes Equipment",Hud Drawdown,4/13/25,1,4/14/25,400000,367532.59
 Debt Service,Penn,Interest,recurring,Penn,4/15/25,1,4/16/25,-5250,572879.93
 Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),4/18/25,1,4/19/25,-5040.68,567839.25
