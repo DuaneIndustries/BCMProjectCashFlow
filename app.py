@@ -85,7 +85,7 @@ app.layout = dbc.Container([
         dbc.Col([
             html.Label(['Filter by Vendor'], style={'font-weight': 'bold', 'color':'linen'}),
             html.Br(),
-            dcc.Checklist(id='my-checklist', value=["Aperion","BCM","Cincinnati Insurance","Decor","ECRS","Embassy","Fresh Ink","Hud Drawdown","KeHe","LEAF","Market Flats","Micro Innovation","Paypal","Payroll (admin)","Payroll (store)","Penn","PPL","SBS","Zepole","Boyle"],
+            dcc.Checklist(id='my-checklist', value=["Aperion","BCM","Cincinnati Insurance","Aurora Displays","ECRS","Embassy","Fresh Ink","Hud Drawdown","KeHe","LEAF","Market Flats","Micro Innovation","Paypal","Payroll (admin)","Payroll (store)","Penn","PPL","SBS","Zepole","Boyle","Store Revenue"],
                           inline=False,
                           className="me-1",
                           style={'color': 'linen'},
