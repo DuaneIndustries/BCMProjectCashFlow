@@ -1,12 +1,11 @@
 ﻿Category,Subcategory,Description,Notes,Vendor,Start Date,Duration,End Date,Amount,Balance
-Equipment,Zepole,Equipment Sales Order,Need to confirm adjusted payment plan with Zepole,Zepole,3/12/25,1,3/13/25,-100000,213154.79
+Equipment,Zepole,Equipment Sales Order,Need to confirm adjusted payment plan with Zepole,Zepole,3/14/25,1,3/15/25,-100000,213154.79
 Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),3/14/25,1,3/15/25,-5040.68,208114.11
-Debt Service,Penn,Interest,recurring,Penn,3/15/25,1,3/16/25,-5250,202864.11
-Revenue,HUD,HUD drawdown #12,"Includes Equipment, Occupancy and Salary from February",Hud Drawdown,3/20/25,1,3/21/25,430319.02,633183.13
+Revenue,HUD,HUD drawdown #12,"Includes Construction Reclass Reimbursement",Hud Drawdown,3/20/25,1,3/21/25,430319.02,633183.13
 Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),3/21/25,1,3/22/25,-5040.68,628142.45
 Equipment,Zepole,Equipment Sales Order,adjusted payment plan with Zepole,Zepole,3/26/25,1,3/27/25,-300000,328142.45
 Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),3/28/25,1,3/29/25,-5040.68,323101.77
-Debt Service,Embassy,Interest,interest,Embassy,4/1/25,1,4/2/25,-2057.3,321044.47
+Debt Service,Embassy,Interest,interest,Embassy,4/2/25,1,4/3/25,-2057.3,321044.47
 Other,Marketing,Consulting (Website),recurring,Fresh Ink,4/1/25,1,4/2/25,-300,320744.47
 Occupancy,Rent,Rent,recurring,Market Flats,4/1/25,1,4/2/25,-14829,305915.47
 Revenue,PayPal,Paypal Donations,member equity,Paypal,4/1/25,1,4/2/25,1000,306915.47
