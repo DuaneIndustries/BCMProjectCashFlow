@@ -117,7 +117,7 @@ app.layout = dbc.Container([
 def update_graph(cat_slctd):
 
     dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
-    starting_balance = 313154.79 
+    starting_balance = 299573.21
     dff = dff.sort_values(by='Start Date')
     dff['Cumulative Balance'] = dff['Amount'].cumsum() + starting_balance
 
