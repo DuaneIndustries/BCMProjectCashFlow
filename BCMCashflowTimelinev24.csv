@@ -1,0 +1,89 @@
+Category,Subcategory,Description,Notes,Vendor,Start Date,Duration,End Date,Amount,Balance
+Occupancy,Insurance,Insurance,recurring,Cincinnati Insurance,4/18/25,1,4/19/25,-1483,305432.47
+Occupancy,Utilities,Electric (Estimated),recurring,PPL,4/9/25,1,4/10/25,-1100,293254.72
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),4/11/25,1,4/12/25,-5040.68,288214.04
+Project Management,SBS,Estimated Consulting Hours Refill,estimate,SBS,4/11/25,1,4/12/25,-9999.6,282714.04
+Revenue,HUD,HUD drawdown #13,remaining balance $6547.69,Hud Drawdown,4/18/25,1,4/16/25,414251.78,367532.59
+Debt Service,Penn,Interest,recurring,Penn,4/15/25,1,4/16/25,-5250,572879.93
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),4/18/25,1,4/19/25,-5040.68,567839.25
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),4/25/25,1,4/26/25,-5040.68,462798.57
+Construction,Low Voltage,Low Voltage Install,due on completion,Micro Innovation,4/30/25,1,5/1/25,-9826.16,452972.41
+Debt Service,Embassy,Interest,interest,Embassy,5/1/25,1,5/2/25,-2057.3,450915.11
+Other,Marketing,Consulting (Website),recurring,Fresh Ink,5/1/25,1,5/2/25,-300,450615.11
+Occupancy,Rent,Rent,recurring,Market Flats,5/1/25,1,5/2/25,-14829,435786.11
+Revenue,PayPal,Paypal Donations,member equity,Paypal,5/1/25,1,5/2/25,1000,436786.11
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),5/2/25,1,5/3/25,-5040.68,431745.43
+Occupancy,Insurance,Insurance,recurring,Cincinnati Insurance,5/5/25,1,5/6/25,-1483,430262.43
+Debt Service,LEAF,Interest,principal + interest,LEAF,5/5/25,1,5/6/25,-6037.07,424225.36
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),5/9/25,1,5/10/25,-5040.68,319184.68
+Occupancy,Utilities,Electric (Estimated),recurring,PPL,5/9/25,1,5/10/25,-1100,318084.68
+Debt Service,Penn,Interest,recurring,Penn,5/15/25,1,5/16/25,-5250,289334.68
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),5/16/25,1,5/17/25,-5040.68,284294
+Salary,Payroll (store),Payroll (store),estimate,Payroll (store),5/16/25,1,5/17/25,-7000,277294
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),5/23/25,1,5/24/25,-5040.68,272253.32
+Salary,Payroll (store),Payroll (store),estimate,Payroll (store),5/23/25,1,5/24/25,-7000,265253.32
+Equipment,ECRS,Registers + other POS equipment,estimated install date,ECRS,5/30/25,1,5/31/25,-83318.11,181935.21
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),5/30/25,1,5/31/25,-5040.68,176894.53
+Salary,Payroll (store),Payroll (store),estimate,Payroll (store),5/30/25,1,5/31/25,-7000,169894.53
+Debt Service,Embassy,Interest,interest,Embassy,6/1/25,1,6/2/25,-2057.3,108038.18
+Other,Marketing,Consulting (Website),recurring,Fresh Ink,6/1/25,1,6/2/25,-300,107738.18
+Occupancy,Rent,Rent,recurring,Market Flats,6/1/25,1,6/2/25,-14829,92909.18
+Revenue,PayPal,Paypal Donations,member equity,Paypal,6/1/25,1,6/2/25,1000,93909.18
+Debt Service,Embassy,Loan Payoff,interest,Embassy,6/4/25,1,6/5/25,-400000,-306090.82
+Debt Service,LEAF,Interest,principal + interest,LEAF,6/5/25,1,6/6/25,-6037.07,-312127.89
+Occupancy,Insurance,Insurance,recurring,Cincinnati Insurance,6/6/25,1,6/7/25,-1483,-313610.89
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/6/25,1,6/7/25,-5040.68,-318651.57
+Salary,Payroll (store),Payroll (store),estimate,Payroll (store),6/6/25,1,6/7/25,-7000,-325651.57
+Occupancy,Utilities,Electric (Estimated),recurring,PPL,6/9/25,1,6/10/25,-1100,-326751.57
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/13/25,1,6/14/25,-5040.68,-337292.25
+Salary,Payroll (store),Payroll (store),estimate,Payroll (store),6/13/25,1,6/14/25,-17088.15,-354380.4
+Other,Opening Inventory,Opening Inventory,estimate - based on Pro Forma,KeHe,6/15/25,1,6/16/25,-321336.25,-675716.65
+Debt Service,Penn,Interest,recurring,Penn,6/15/25,1,6/16/25,-5250,-680966.65
+Debt Service,Penn,Loan Payoff,recurring,Penn,6/15/25,1,6/16/25,-700000,-1380966.65
+Supplies & Materials,Interior Decor,Aurora Displays,Due on Completion - terms and date subject to change,Aurora Displays,6/16/25,1,6/17/25,-39466.42,-1402966.65
+Equipment,Aperion,Electronic Tag System,terms not defined -estimate,Aperion,6/20/25,1,6/21/25,-32991.7,-1453958.35
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/20/25,1,6/21/25,-5040.68,-1458999.03
+Salary,Payroll (store),Payroll (store),estimate,Payroll (store),6/20/25,1,6/21/25,-17088.15,-1476087.18
+Salary,Payroll (admin),Payroll (admin),estimate,Payroll (admin),6/27/25,1,6/28/25,-5040.68,-1481127.86
+Salary,Payroll (store),Payroll (store),estimate,Payroll (store),6/27/25,1,6/28/25,-17088.15,-1498216.01
+Occupancy,Rent,Rent,recurring,Market Flats,8/1/25,1,8/2/25,-14829,-1513045.01
+Revenue,PayPal,Paypal Donations,member equity,Paypal,8/1/25,1,8/2/25,1000,-1512045.01
+Occupancy,Insurance,Insurance,recurring,Cincinnati Insurance,8/3/25,1,8/4/25,-1483,-1513528.01
+Occupancy,Utilities,Electric (Estimated),recurring,PPL,8/12/25,1,8/13/25,-5000,-1518528.01
+Equipment,Zepole,Equipment Sales Order,Need to confirm adjusted payment plan with Zepole,Zepole,8/15/25,1,8/16/25,-236737.3,-1545653.67
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,BCM,8/20/25,1,8/21/25,17173.03,-1528480.64
+Construction,Construction,unbilled (including retainage),due on completion,Boyle,8/21/25,1,8/22/25,-155267.14,-1683747.78
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/22/25,1,8/23/25,17173.03,-1666574.75
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/23/25,1,8/24/25,17173.03,-1649401.72
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/24/25,1,8/25/25,17173.03,-1632228.69
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/25/25,1,8/26/25,17173.03,-1615055.66
+Debt Service,LEAF,Interest,principal + interest,LEAF,8/26/25,1,8/27/25,-6037.07,-1621092.73
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/26/25,1,8/27/25,17173.03,-1603919.7
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/27/25,1,8/28/25,17173.03,-1586746.67
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/28/25,1,8/29/25,17173.03,-1569573.64
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/29/25,1,8/30/25,17173.03,-1552400.61
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/30/25,1,8/31/25,17173.03,-1535227.58
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,8/31/25,1,9/1/25,17173.03,-1518054.55
+Occupancy,Rent,Rent,recurring,Market Flats,9/1/25,1,9/2/25,-14829,-1532883.55
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/1/25,1,9/2/25,17173.03,-1515710.52
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/2/25,1,9/3/25,17173.03,-1498537.49
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/3/25,1,9/4/25,17173.03,-1481364.46
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/4/25,1,9/5/25,17173.03,-1464191.43
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/5/25,1,9/6/25,17173.03,-1447018.4
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/6/25,1,9/7/25,17173.03,-1429845.37
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/7/25,1,9/8/25,17173.03,-1412672.34
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/8/25,1,9/9/25,17173.03,-1395499.31
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/9/25,1,9/10/25,17173.03,-1378326.28
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/10/25,1,9/11/25,17173.03,-1361153.25
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/11/25,1,9/12/25,17173.03,-1343980.22
+Occupancy,Utilities,Electric (Estimated),recurring,PPL,9/12/25,1,9/13/25,-5000,-1348980.22
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/12/25,1,9/13/25,17173.03,-1331807.19
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/13/25,1,9/14/25,17173.03,-1314634.16
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/14/25,1,9/15/25,17173.03,-1297461.13
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/15/25,1,9/16/25,17173.03,-1280288.1
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/16/25,1,9/17/25,17173.03,-1263115.07
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/17/25,1,9/18/25,17173.03,-1245942.04
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/18/25,1,9/19/25,17173.03,-1228769.01
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/19/25,1,9/20/25,17173.03,-1211595.98
+Revenue,Store Revenue,Projected Store Revenue,Based on Pro Forma,Store Revenue,9/20/25,1,9/21/25,17173.03,-1194422.95
+Debt Service,LEAF,Interest,principal + interest,LEAF,9/26/25,1,9/27/25,-6037.07,-1200460.02
