@@ -9,7 +9,7 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 
 green = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/CategoryTotalsv223.csv")
-roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashflowTimelinev24.csv")
+roastlog = pd.read_csv("https://raw.githubusercontent.com/DuaneIndustries/BCMProjectCashFlow/refs/heads/main/BCMCashflowTimelinev5525.csv")
 
 #DATA CLEANING
 
@@ -117,7 +117,7 @@ app.layout = dbc.Container([
 def update_graph(cat_slctd):
 
     dff = roastlog[roastlog['Vendor'].isin(cat_slctd)]
-    starting_balance = 299573.21
+    starting_balance = 368194.08
     dff = dff.sort_values(by='Start Date')
     dff['Cumulative Balance'] = dff['Amount'].cumsum() + starting_balance
 
