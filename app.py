@@ -81,30 +81,30 @@ app.layout = dbc.Container([
         ], width={'size' : 12}),
 
 ]),
-    dbc.Row([
-        dbc.Col([
-            html.Label(['Filter by Vendor'], style={'font-weight': 'bold', 'color':'linen'}),
-            html.Br(),
-            dcc.Checklist(id='my-checklist', value=["Aperion","BCM","Cincinnati Insurance","Aurora Displays","ECRS","Embassy","Fresh Ink","Hud Drawdown","KeHe","LEAF","Market Flats","Micro Innovation","Paypal","Payroll (admin)","Payroll (store)","Penn","PPL","SBS","Zepole","Boyle","Store Revenue"],
-                          inline=False,
-                          className="me-1",
-                          style={'color': 'linen'},
-                          inputStyle={'margin-left': '10px'},
-                          options=[{'label': vendor, 'value': vendor} for vendor in dff['Vendor'].unique()]
-                          ),
-            ], width={'size': 2}),
-        dbc.Col([
-                html.Br(),
-                dcc.Graph(
-                     id='balanceline',
-                    figure={},
-                    style={"border" : "2px linen solid","height" : "500px", "width" : "100%"} )
-            ], width={'size' : 10 }),
-        html.Br(),
+#    dbc.Row([
+#        dbc.Col([
+#            html.Label(['Filter by Vendor'], style={'font-weight': 'bold', 'color':'linen'}),
+#            html.Br(),
+#            dcc.Checklist(id='my-checklist', value=["Aperion","BCM","Cincinnati Insurance","Aurora Displays","ECRS","Embassy","Fresh Ink","Hud Drawdown","KeHe","LEAF","Market Flats","Micro Innovation","Paypal","Payroll (admin)","Payroll (store)","Penn","PPL","SBS","Zepole","Boyle","Store Revenue"],
+#                          inline=False,
+#                          className="me-1",
+#                          style={'color': 'linen'},
+#                          inputStyle={'margin-left': '10px'},
+#                          options=[{'label': vendor, 'value': vendor} for vendor in dff['Vendor'].unique()]
+#                          ),
+#            ], width={'size': 2}),
+#        dbc.Col([
+#                html.Br(),
+#                dcc.Graph(
+#                     id='balanceline',
+#                    figure={},
+#                    style={"border" : "2px linen solid","height" : "500px", "width" : "100%"} )
+#            ], width={'size' : 10 }),
+#        html.Br(),
 
 
 
-]),
+#]),
 ])
 
 # Balance Line
