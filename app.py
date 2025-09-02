@@ -76,7 +76,7 @@ app.layout = dbc.Container([
         ]),
     dbc.Row([
         dbc.Col([
-            dcc.Graph(id='green-bar',figure={},style={"border" : "2px linen solid"}),
+            dcc.Graph(id='green-bar',figure={},style={"border" : "2px linen solid","height" : "500px","width" : "100%"}),
         html.Br(),
         ], width={'size' : 12}),
 
