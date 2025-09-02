@@ -98,7 +98,7 @@ app.layout = dbc.Container([
                 dcc.Graph(
                      id='balanceline',
                     figure={},
-                    style={"border" : "2px linen solid"} )
+                    style={"border" : "2px linen solid","height" : "500px", "width" : "100%"} )
             ], width={'size' : 10 }),
         html.Br(),
 
